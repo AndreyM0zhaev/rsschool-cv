@@ -1,6 +1,6 @@
 -------------
 # Andrey Mozhaev
--------------
+
 ## Contact information
 
  **Phone:** +375 44 5842901
