@@ -7,11 +7,15 @@ ___
 
  **E-mail:** mozhaev.andrey.v@gmail.com
 
+ **Discord:** Можаев Андрей (@AndreyM0zhaev)
+
  **[Telegram](https://t.me/iAMSQA)**
 
- **[LinkedIn](www.linkedin.com/in/andrey-mozhaev-a90731133)**
-
-**Discord:** Можаев Андрей (@AndreyM0zhaev)
+<div id="badges" align="left">
+  <a href="https://www.linkedin.com/in/andrey-mozhaev-a90731133">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+</div>
 
 ___
 
@@ -34,8 +38,3 @@ ___
 * Figma
 ___
 
-<div id="badges" align="left">
-  <a href="https://www.linkedin.com/in/andrey-mozhaev-a90731133">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-</div>
