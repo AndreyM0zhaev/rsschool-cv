@@ -33,3 +33,7 @@ ___
 * Terminal
 * Figma
 ___
+
+<div id="header" align="left">
+  <img src="https://media.giphy.com/media/ZfU11ODanloCA/giphy.gif" width="100"/>
+</div>
