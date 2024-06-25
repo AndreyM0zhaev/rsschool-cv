@@ -1,12 +1,12 @@
-====
+-------------
 # Andrey Mozhaev
-====
+-------------
 ## Contact information
 
-* **Phone:** +375 44 5842901
-* **E-mail:** mozhaev.andrey.v@gmail.com
-* **[Telegram](https://t.me/iAMSQA)**
-* **[LinkedIn](www.linkedin.com/in/andrey-mozhaev-a90731133)**
+ **Phone:** +375 44 5842901
+ **E-mail:** mozhaev.andrey.v@gmail.com
+ **[Telegram](https://t.me/iAMSQA)**
+ **[LinkedIn](www.linkedin.com/in/andrey-mozhaev-a90731133)**
 
 ====
 ### ***About me***
