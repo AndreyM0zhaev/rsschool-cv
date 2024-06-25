@@ -11,6 +11,8 @@ ___
 
  **[LinkedIn](www.linkedin.com/in/andrey-mozhaev-a90731133)**
 
+**Discord:** Можаев Андрей (@AndreyM0zhaev)
+
 ___
 
 ### ***About me***
