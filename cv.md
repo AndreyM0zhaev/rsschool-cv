@@ -21,3 +21,13 @@ I like my work, the atmosphere and involvement in something global, to see how w
 To improve the quality of my work, I am constantly studying something, looking for courses, resources and webinars. Thus, I took several courses on software quality assurance. At one of these courses, I liked the manner of teaching in a free style, where a community of students united and helped each other. My next goal was to develop to the SDET or developer level. So I ended up on a preparatory course at RSSchool.
 ___
 
+### Skills
+* HTML5, CSS3
+* JavaScript (Basic)
+* Git 
+    + GitHub
+    + GitLab
+* VS Code
+* Terminal
+* Figma
+___
