@@ -1,7 +1,6 @@
 # Andrey Mozhaev
-<img src="/img/photo.png" width="275" align="right"/>
-
 ___
+<img src="/img/photo.png" width="275" align="right"/>
 
 ## Contact information
 
