@@ -1,5 +1,4 @@
 # Andrey Mozhaev
-___
 <img src="/img/photo.png" width="275" align="right"/>
 
 ## Contact information
@@ -24,6 +23,7 @@ I started my career in IT from the position of a technical writer in one of the 
 I like my work, the atmosphere and involvement in something global, to see how what I'm working on gets better and benefits people. 
 
 To improve the quality of my work, I am constantly studying something, looking for courses, resources and webinars. Thus, I took several courses on software quality assurance. At one of these courses, I liked the manner of teaching in a free style, where a community of students united and helped each other. My next goal was to develop to the SDET or developer level. So I ended up on a preparatory course at RSSchool.
+
 ___
 
 ### Skills
@@ -35,6 +35,7 @@ ___
 * VS Code
 * Terminal
 * Figma
+
 ___
 
 ### Code example
@@ -53,6 +54,7 @@ ___
 * ITVDN - HTML5&CSS3
 * ITVDN - Javascript-starter (in progress)
 * RSSchool - JS/FE Pre-School 2024Q2 (in progress)
+
 ___
 
 ### Languages
@@ -60,3 +62,5 @@ ___
 * English - PreIntermediate
 * Russian - Native
 * Belarussian - Intermediate
+
+___
