@@ -14,6 +14,8 @@ ___
 
  **[LinkedIn](https://www.linkedin.com/in/andrey-mozhaev-a90731133)**
 
+ **[MyProject](https://github.com/AndreyM0zhaev/rsschool-cv/blob/gh-pages/cv.md)**
+
 ___
 
 ### ***About me***
