@@ -47,7 +47,10 @@ ___
 
 ### Courses
 
-
+* A1QA - CJSC "Quality Technologies", Minsk
+* ITVDN - HTML5&CSS3
+* ITVDN - Javascript-starter (in progress)
+* RSSchool - JS/FE Pre-School 2024Q2 (in progress)
 ___
 
 ### Languages
