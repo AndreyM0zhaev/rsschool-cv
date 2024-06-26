@@ -1,4 +1,4 @@
-# Andrey Mozhaev **[Foto](/img/photo.png width="300")**
+# Andrey Mozhaev **[Foto](/img/photo.png)**
 
 ## Contact information
 
