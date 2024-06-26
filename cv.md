@@ -1,7 +1,4 @@
-# Andrey Mozhaev
-<!-- <img src="/img/photo.png" width="275" align="right"/> -->
-
- **[Foto](/img/photo.png)**
+# Andrey Mozhaev **[Foto](/img/photo.png width="300")**
 
 ## Contact information
 
