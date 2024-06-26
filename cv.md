@@ -37,6 +37,9 @@ ___
 
 ### Code example
 
+```function multiply (a, b) { -->
+return a * b
+}```
 
 ___
 
