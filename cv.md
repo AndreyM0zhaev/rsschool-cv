@@ -54,3 +54,7 @@ ___
 ___
 
 ### Languages
+
+* English - PreIntermediate
+* Russian - Native
+* Belarussian - Intermediate
