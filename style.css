@@ -7,4 +7,19 @@
     font-family: "Roboto";
     src: url("assets/fonts/Roboto-Medium.ttf");
     font-weight: 300;
-  }    /*!Подключение шрифтов*/
+  }     /*!Подключение шрифтов*/
+
+  * {
+    box-sizing: border-box;
+  }     /*!Универсальный селектор*/
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }     /*!Прижимаем футер к низу страницы*/
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }     /*!Контейнер*/
