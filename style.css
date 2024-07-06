@@ -1,4 +1,8 @@
 
+.section-profile{
+  float: right;
+}
+
 .profile-photo {
   float: left;
   width: 310px;
@@ -7,23 +11,36 @@
 
 .profile-title{
   font-family: Roboto-Medium;
-  display: flex;
   justify-content: left;
   font-size: 23px;
+  margin-bottom: -1%
 }
 
 .profile-position{
   font-family: Roboto-Light;
-  display: flex;
   justify-content: left;
   font-size: 19px;
 }
 
-.about_me{
+.subtitle{
   font-family: Roboto-Medium;
   display: flex;
   justify-content: left;
   font-size: 21px;
+  margin-bottom: -1%
+}
+
+.subtitle-table{
+  margin-bottom: -2%
+}
+
+.net {
+  display: inline-block;
+  margin: 1%;
+}
+
+.text{
+  font-family: Roboto-Light;
 }
 
 @font-face {
