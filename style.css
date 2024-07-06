@@ -1,11 +1,39 @@
+
+.profile-photo {
+  float: left;
+  width: 310px;
+  margin: 0 3%;
+}    /*!фото*/
+
+.profile-title{
+  font-family: Roboto-Medium;
+  display: flex;
+  justify-content: left;
+  font-size: 23px;
+}
+
+.profile-position{
+  font-family: Roboto-Light;
+  display: flex;
+  justify-content: left;
+  font-size: 19px;
+}
+
+.about_me{
+  font-family: Roboto-Medium;
+  display: flex;
+  justify-content: left;
+  font-size: 21px;
+}
+
 @font-face {
     font-family: "Roboto";
-    src: url("assets/fonts/Roboto-Light.ttf");
-    font-weight: 100;
+    src: url("./assets/fonts/Roboto-Light.ttf");
+    font-weight: 200;
   }
   @font-face {
     font-family: "Roboto";
-    src: url("assets/fonts/Roboto-Medium.ttf");
+    src: url("./assets/fonts/Roboto-Medium.ttf");
     font-weight: 300;
   }     /*!Подключение шрифтов*/
 
@@ -23,3 +51,45 @@
     max-width: 1440px;
     margin: 0 auto;
   }     /*!Контейнер*/
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }     /*!Навигация*/
+
+  html {
+    scroll-behavior: smooth;
+  }     /*!Плавность прокрутки*/
+
+  .nav-list {
+    list-style: none;
+  }     /*!Убираем стандартные маркеры*/
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+  }     /*!Добавляем отступы между элементами списка*/
+
+  .nav-link {
+    transition: 0.3s;
+  }     /*!Интерактивность при наведении*/
+
+  .section-item a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  .section-item a:hover {
+    color: #4d2323;
+  }     /*!дополнительная интерактивность*/
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }     /*!Сетка страницы*/
+  
