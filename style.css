@@ -1,6 +1,22 @@
+.section-left-top{
+  float: left;
+  background-color: rgb(220, 189, 148);
+  margin: 3%;
+  width: 300px;
+}
+
+.section-left-bottom{
+  float: left;
+  margin: 0 3%;
+}
+
+.section-right-top{
+  float: right;
+}
 
 .section-profile{
   float: right;
+  background-color: rgb(226, 205, 177);
 }
 
 .profile-photo {
@@ -27,11 +43,13 @@
   display: flex;
   justify-content: left;
   font-size: 21px;
-  margin-bottom: -1%
+  margin-bottom: -1%;
+  margin-left: 5%;
 }
 
 .subtitle-table{
-  margin-bottom: -2%
+  margin-bottom: -2%;
+  margin-left: 5%;
 }
 
 .net {
@@ -41,6 +59,7 @@
 
 .text{
   font-family: Roboto-Light;
+  margin-left: 5%;
 }
 
 @font-face {
@@ -73,6 +92,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: rgb(143, 109, 63);
   }     /*!Навигация*/
 
   html {
