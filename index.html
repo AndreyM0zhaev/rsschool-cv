@@ -3,8 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="icon" href="assets/favicon.ico" />
 </head>
 <body>
-</body>
+    <header>
+      <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#about_me" class="nav-link">About me</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#code example" class="nav-link">Code example</a></li>
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+        <div class="main-container">
+          <section class="section-profile">
+            <img src="./assets/img/photo.png" alt="My foto" class="profile-photo">
+              <div>
+                <h1 class="profile-title">Andrey Mozhaev</h1>
+                <p class="profile-position">Junior Front-end Developer</p>
+              </div>
+              <div class="text" id="about_me">
+                <h2 class="subtitle">About me</h2>
+                <p>I started my career in IT from the position of a technical writer in one of the Minsk IT product companies. To create an accurate and understandable description of the functionality of the software, I needed to delve into all the details of the products produced. That's how I started to find bugs and inconsistencies. I was offered to work as a part-time tester, and later become a full-fledged member of the QA department team.</p>
+                <p>I like my work, the atmosphere and involvement in something global, to see how what I'm working on gets better and benefits people.</p>
+                <p>To improve the quality of my work, I am constantly studying something, looking for courses, resources and webinars. Thus, I took several courses on software quality assurance. At one of these courses, I liked the manner of teaching in a free style, where a community of students united and helped each other. My next goal was to develop to the SDET or developer level. So I ended up on a preparatory course at RSSchool.</p>
+              </div>
+          </section>
+        </div>
+        <section class="section-profile"></section>
+        <div class="container">
+          <div id="block1">
+            <h2 class="subtitle" id="contacts">Contacts</h2>
+            <h3 class="subtitle-table">Phone</h3>
+            <ul class="list-none">
+              <li>
+                <p>+375 44 584 29 01</p>
+              </li>
+            </ul>
+            <h3 class="subtitle-table">Email</h3>
+            <ul class="list-none">
+              <li>
+                <p>mozhaev.andrey.v@gmail.com</p>
+              </li>
+            </ul>
+            <h3 class="subtitle-table">Social network</h3>
+            <ul class="list-none">
+              <li>
+                <a href="https://t.me/iAMSQA"><b>Telegram</b></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/andrey-mozhaev-a90731133"><b>LinkedIn</b></a>
+              </li>
+              <li>
+                <a href=https://github.com/AndreyM0zhaev/rsschool-cv/blob/gh-pages/cv.md><b>GitHub</b></a>
+              </li>
+            </ul>
+            <h2 class="subtitle">Languages</h2>
+            <p class="text">English - PreIntermediate</p>
+            <p class="text">Russian - Native</p>
+            <p class="text">Belarussian - Intermediate</p>
+            </ul>
+          </div>
+          <div class="container">
+          <div class="text" id="block2">
+            <h2 class="subtitle-table" id="education">Education</h2><br>
+            <ul>
+              <li>A1QA - CJSC "Quality Technologies", Minsk</li><br>
+              <li>ITVDN - HTML5&CSS3</li><br>
+              <li>ITVDN - Javascript-starter (in progress)</li><br>
+              <li>RSSchool - JS/FE Pre-School 2024Q2 (in progress)</li><br>
+            </ul>
+            <h2 class="subtitle-table" id="code example">Code example</h2><br>
+            <pre><code>
+              function multiply (a, b) {
+                return a * b
+                }
+            </code></pre>
+          </div>
+        </div>
+        <div class="container">
+          <h2 class="subtitle" id="skills">Skills</h2>
+            <ul>
+              <li>HTML5, CSS3</li>
+              <li>JavaScript (Basic)</li>
+              <li>Git
+                <li>GitHub</li>
+                <li>GitLab</li>
+              </li>
+              <li>VS Code</li>
+              <li>Terminal</li>
+              <li>Figma</li>
+            </ul>
+        </div>
+    </main>
+    <footer class="body">
+        <div>2024
+          <a href="https://github.com/AndreyM0zhaev/rsschool-cv/blob/rsschool-cv-html-CV3/index.html" display="block"  text-align="center">VisitMyGitHub</a>
+          <a href="https://rs.school/courses/javascript-preschool-ru"><img src="./assets/favicon.ico" class="favicon">
+        </div>
+    </footer>
+</body>   
 </html>
