@@ -2,7 +2,6 @@
   float: left;
   display: block;
   width: 24%;
-  border: 1px solid gray;
   margin-top: 2px;
   padding: 4px;
   }
@@ -11,7 +10,6 @@
   float: left;
   display: block;
   width: 50%;
-  border: 1px solid gray;
   margin-left: 2%;
   padding: 4px;
   }
@@ -21,25 +19,9 @@
   margin-left: -5%;
 }
 
-.section-top{
-  /* float: left; */
-  background-color: rgb(220, 189, 148);
-  float: left;
-  display: block;
-  width: 300px;
-  border: 1px solid gray;
-  margin: 2px;
-  padding: 4px;
-  }
-
-.section-left-bottom{
-  float: left;
-  margin: 0 3%;
-}
-
 .section-profile{
   float: right;
-  background-color: rgb(226, 205, 177);
+  background-color: #ffe4c4;
 }
 
 .profile-photo {
@@ -76,11 +58,6 @@
   font-family: Roboto-Medium;
 }
 
-.net {
-  display: inline-block;
-  margin: 1%;
-}
-
 .text{
   font-family: Roboto-Light;
   margin-left: 7%;
@@ -111,7 +88,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: rgb(143, 109, 63);
+    background-color: #ffe4c4;
   }     /*!Навигация*/
 
   html {
@@ -128,21 +105,22 @@
   }     /*!Добавляем отступы между элементами списка*/
 
   .nav-link {
+    font-family: Roboto-Medium;
     transition: 0.3s;
-  }     /*!Интерактивность при наведении*/
-
-  .section-item a {
-    color: #829985;
+    color: blueviolet;
     text-decoration: none;
     transition: color 0.5s;
-  }
-  .section-item a:hover {
-    color: #4d2323;
-  }     /*!дополнительная интерактивность*/
+  }     /*!Интерактивность при наведении*/
 
   .main-container {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .favicon{
+  position: static;
+  float: right;
+  width: 10%
   }
 
 
