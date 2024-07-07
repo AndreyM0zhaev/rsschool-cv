@@ -1,0 +1,129 @@
+#block1 {
+  float: left;
+  display: block;
+  width: 24%;
+  margin-top: 2px;
+  padding: 4px;
+  }
+  
+  #block2 {
+  float: left;
+  display: block;
+  width: 50%;
+  margin-left: 2%;
+  padding: 4px;
+  }
+
+.list-none{
+  list-style-type: none;
+  margin-left: -5%;
+}
+
+.section-profile{
+  float: right;
+  background-color: #ffe4c4;
+}
+
+.profile-photo {
+  float: left;
+  width: 310px;
+  margin: 0 3%;
+}    /*!фото*/
+
+.profile-title{
+  font-family: Roboto-Medium;
+  justify-content: left;
+  font-size: 23px;
+  margin-bottom: -1%
+}
+
+.profile-position{
+  font-family: Roboto-Light;
+  justify-content: left;
+  font-size: 19px;
+}
+
+.subtitle{
+  font-family: Roboto-Medium;
+  display: flex;
+  justify-content: left;
+  font-size: 21px;
+  margin-bottom: -1%;
+  margin-left: 3%;
+}
+
+.subtitle-table{
+  margin-bottom: -2%;
+  margin-left: 7%;
+  font-family: Roboto-Medium;
+}
+
+.text{
+  font-family: Roboto-Light;
+  margin-left: 7%;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/fonts/Roboto-Light.ttf");
+    font-weight: 200;
+  }
+  @font-face {
+    font-family: "Roboto";
+    src: url("./assets/fonts/Roboto-Medium.ttf");
+    font-weight: 300;
+  }     /*!Подключение шрифтов*/
+
+  * {
+    box-sizing: border-box;
+  }     /*!Универсальный селектор*/
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }     /*!Прижимаем футер к низу страницы*/
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffe4c4;
+  }     /*!Навигация*/
+
+  html {
+    scroll-behavior: smooth;
+  }     /*!Плавность прокрутки*/
+
+  .nav-list {
+    list-style: none;
+  }     /*!Убираем стандартные маркеры*/
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+  }     /*!Добавляем отступы между элементами списка*/
+
+  .nav-link {
+    font-family: Roboto-Medium;
+    transition: 0.3s;
+    color: blueviolet;
+    text-decoration: none;
+    transition: color 0.5s;
+  }     /*!Интерактивность при наведении*/
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .favicon{
+  position: static;
+  float: right;
+  width: 10%
+  }
+
+
+  
+
+  
