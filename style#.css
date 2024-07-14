@@ -1,0 +1,124 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+} */
+
+.header {
+    width: 1200px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 40px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: brown;
+    font-family: arial;
+}
+
+.logo {
+    width: 184px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Georgia";
+    color: #F1CDB3;
+    width: 184px;
+    size: 32px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0;
+}
+
+.subtitle {
+    display: flex;
+    width: 179px;
+    height: 15px;
+    margin-top: 45px;
+    margin-left: 4px;
+    margin-bottom: 0;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.subtitle__text {
+    margin: 0;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 443px;
+    height: 27px;
+    margin-top: 16px;
+    margin-left: 757px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+/* .wrapper {
+    max-width: 1280;
+    margin: auto;
+} */
+
+
+/*
+.wrapper {
+    margin: 0 auto;
+    width: 1280;
+} */
+
+
+
+
+
+
+
+/* .logo {
+    width: 184px;
+    height: 60px;
+} */
+
+/* a {text-decoration: none; убираем подчеркивание текста ссылок
+}
+
+
+  
+  /* nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+
+.nav__item {} */
+
+/* .start__screen {
+    width: 1200px;
+    height: 728px;
+    top: 180px;
+    left: 40px;
+    gap: 0px;
+    opacity: 0px;    
+} */
+
+@font-face {
+    font-family: "Georgia";
+    src: url("./assets/fonts/georgia.ttf");
+    font-style: normal; 
+    font-weight: normal; 
+  } 
+
+@font-face {
+    font-family: "Arial";
+    src: url("./assets/fonts/arialmt.ttf");
+    font-style: normal;
+    font-weight: normal;
+}

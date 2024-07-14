@@ -1,14 +1,95 @@
-@font-face {
-    font-family: "Georgia";
-    src: url("./assets/fonts/georgia.ttf");
-    font-style: normal; 
-    font-weight: normal; 
-  } 
+body {
+    background-image: url(./assets/img/header/start-screen-gradient-background.jpg);
+}
 
-  @font-face {
-    font-family: "Arial";
-    src: url("./assets/fonts/arialmt.ttf");
-    font-style: normal; 
-    font-weight: normal; 
-  }
-  
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Arial", sans-serif;
+    width: 1200px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 40px;
+    opacity: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 573px;
+}
+
+.logo {
+    width: 184px;
+    height: 60px;
+}
+
+.logo__text {
+    font-family: "Georgia", sans-serif;
+    color: #f1cdb3;
+    width: 184px;
+    size: 35px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0;
+    font-size: 32px;
+    line-height: 110%;
+    font-weight: 400;
+}
+
+.subtitle__text {
+    text-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+    width: 179px;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: 4px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    list-style: none    ;
+    color: #ffff;
+}
+
+.nav {
+    /* width: 443px;
+    height: 27px; */
+    margin-top: 16.5px;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    width: 443px;
+    height: 27px;
+}
+
+.nav__item_colored {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 17.5px 0 17.5px;
+    color: #cdcdcd;
+    
+    /* font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    padding: 0 17.5px 0 17.5px;
+    color: #cdcdcd; */
+
+    /* font-size: 15px;
+    padding: 0 17.5px 0 17.5px;
+    flex-grow: 1;
+    width: auto; */
+}
+
+.nav__item_uncolored {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    gap: 10px;
+    padding: 0 17.5px 0 17.5px;
+}
