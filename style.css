@@ -1,5 +1,17 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
 body {
     background-image: url(./assets/img/header/start-screen-gradient-background.jpg);
+
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
 }
 
 .header {
@@ -46,16 +58,10 @@ body {
     color: #fff;
 }
 
-a {
-    text-decoration: none;
-    list-style: none    ;
-    color: #ffff;
-}
-
 .nav {
-    /* width: 443px;
-    height: 27px; */
-    margin-top: 16.5px;
+    width: 443px;
+    height: 27px;
+    margin-top: 16px;
 }
 
 .nav__list {
@@ -65,31 +71,113 @@ a {
     height: 27px;
 }
 
-.nav__item_colored {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 10px;
-    padding: 0 17.5px 0 17.5px;
-    color: #cdcdcd;
-    
-    /* font-weight: 400;
+.nav__list__item {
+    font-weight: 400;
     font-size: 15px;
-    line-height: 160%;
-    padding: 0 17.5px 0 17.5px;
-    color: #cdcdcd; */
-
-    /* font-size: 15px;
-    padding: 0 17.5px 0 17.5px;
-    flex-grow: 1;
-    width: auto; */
+    padding-right: 35px;
+    line-height: 24px;
 }
 
-.nav__item_uncolored {
+.nav__list__item:last-child {
+    padding-right: 0;
+}
+
+.nav__list__item a {
+    color: #CDCDCD;
+}
+
+.nav__list__item a:hover,
+.active a {
+    color: #FAFAFA;
+    border-bottom: 3px solid #F1CDB3;
+}
+
+.start__screen__content {
+    width: 1200px;
+    height: 728px;
+    margin-top: 270px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.screen__content {
+    width: 460px;
+    height: 322px;
+}
+
+.start__screen__heading {
+    width: 310px;
+    height: 114px;
+}
+
+h2 {
+    font-family: "Georgia", sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 57.2px;
+    color: #fff;
+}
+
+.start__screen__subheading {
+    font-family: "Arial", sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
+    color: #cdcdcd;
+    width: 460px;
+    height: 72px;
+    margin-top: 42px;
+
+}
+
+.long__button {
+    border-radius: 100px;
+    padding: 15px 45px;
+}
+
+.button_colored {
+    width: 207px;
+    height: 52px;
+    background: #f1cdb3;
+}
+
+.button_start_screen {
+    padding: 15px 45px;
     gap: 10px;
-    padding: 0 17.5px 0 17.5px;
+    border-radius: 100px 0px 0px 0px;
+    margin-top: 42px;
+}
+
+.button__text {
+    font-family: "Georgia", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    color: #292929;
+}
+
+.position__button__start__screen {
+    margin-top: 42px;
+}
+
+.dog__start__screen {
+    width: 698px;
+    height: 728px;
+    margin-left: 502px;
+    margin-top: -502px;
+}
+
+@font-face {
+    font-family: "Georgia";
+    src: url("./assets/fonts/georgia.ttf");
+    font-style: normal; 
+    font-weight: normal; 
+  } 
+
+@font-face {
+    font-family: "Arial";
+    src: url("./assets/fonts/arialmt.ttf");
+    font-style: normal;
+    font-weight: normal;
 }
