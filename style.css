@@ -4,8 +4,15 @@
 	border: none;
 }
 
+.content {
+    max-width: 1280px;
+    margin: auto;
+}
+
 body {
     background-image: url(./assets/img/header/start-screen-gradient-background.jpg);
+    background-repeat: no-repeat;
+    background: #211f20, radial-gradient(237.5% 111.8% at 0% 0%, rgb(91, 72, 58) 0%, rgb(38, 36, 37) 100%), url("./assets/img/header/start-screen-gradient-background.jpg");
 }
 
 a {
@@ -288,10 +295,54 @@ h3 {
     background: #fff;
 }
 
-.block__help__content {
-    width: 1200px;
-    height: 431px;
-    padding: 0px 40px 100px 40px;
+.block__lists {
+    width: 1026px;
+    height: 281px;
+    text-align: center;
+    margin: 60px 127px 100px 127px;
+}
+
+.block__list__text {
+    font-family: "Georgia", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+    padding-top: 30px;
+}
+
+.block__first__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.block__second__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 55px 84px 50px 84px;
+}
+
+.donation {
+    width: 1280px;
+    height: 462px;
+    background: #f6f6f6;
+}
+
+.block__donation {
+    display: flex;
+    justify-content: space-between;
+    width: 915px;
+    height: 282px;
+    padding: 80px 182.5px 100px;
+}
+
+.block__donation__content {
+    width: 380px;
+    height: 282px;
+    padding-left: 30px;
 }
 
 @font-face {
